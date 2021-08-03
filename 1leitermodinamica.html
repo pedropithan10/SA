@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SA 2º Ano SESI-SENAI</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./imagenss/image.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h2>SA 2º Ano SESI-SENAI</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/C:\VScode\SA Termodinamica/index.html">Principal</a></li>
+            <li><a class="active" href="/C:\VScode\SA Termodinamica/1leitermodinamica.html">1º Lei Termodinâmica</a></li>
+            <li><a href="/C:\VScode\SA Termodinamica/2leitermodinamica.html">2º Lei Termodinâmica</a></li>
+            <li><a href="eficiencia.html">Eficiência</a></li>
+            <li><a href="/C:\VScode\SA Termodinamica/Máquina.html">Máquina</a></li>
+            <li><a href="/C:\VScode\SA Termodinamica/Sobre.html">Sobre</a></li>    
+        </ul>
+    </nav>    
+    <div>
+        <div class="container">
+        <h1><a class="titulo">Primeira Lei da Termodinâmica</a> </h1>
+        <p><a class="paragrafo"></a> A primeira Lei da Termodinâmica é o princípio da conservação de energia para os sistemas termodinâmicos, ela torna possível prever como o sistema gasoso vai se comportar ao sofrer uma transformação termodinâmica. A energia total desse sistema sempre se mantém constante, já que ela não é perdida, mas sim, transformada. Os conceitos consistem em energia interna, calor e trabalho, que pertence ao âmbito das máquinas térmicas. 
+
+            “A variação da energia interna de um sistema termodinâmico corresponde à diferença entre a quantidade de calor por ele absorvida e a quantidade de trabalho que esse sistema realiza.”
+    </p>
+    <p>-A Primeira Lei da Termodinâmica promove conservação de energia ao relacionar o calor com a energia interna e o trabalho realizado pelo gás ou sobre ele. </p>
+
+    <p>-Os principais processos termodinâmicos são analisados sob o ponto de vista da Primeira Lei da Termodinâmica, de forma a verificar as transformações isotérmica, isocórica, isobárica e adiabática.</p>
+
+    <p>Fórmula: Δ/U = Q - t </p>
+    <p>ΔU – variação de energia interna (cal ou J)</p>
+    <p>Q – calor (cal ou J)</p>
+    <p>τ – trabalho (cal ou J)</p>
+    <img src="./imagenss/taleba.jpeg" alt="tabela">
+    <p>Analisando a imagem a seguir, se percebe que em todos os processos termodinâmicos a variação da energia interna  é resultado da forma como o calor trocado Q e o trabalho realizado  se relacionam no sistema. </p>
+    <a><img src="./imagenss/estados.jpeg" alt="estados" class="meiuca"></a>
+    <div class="container">
+        <form>
+            <div class="row row-input">
+                <h3 class="h3-title">Cálculo da Energia interna</h3>
+            </div>
+
+
+            <div class="row row-input">
+                <input type="number" id="valor1" placeholder="Q">
+            </div>
+
+            <div class="row row-input">
+                <input type="number" id="valor2" placeholder="W">
+            </div>
+
+            <div class="row row-input">
+                <input type="number" id="resultado" readonly>
+            </div>
+
+            <div class="row row-input">
+                <button type="button" onclick="calcular()" >Calcular</button>
+            </div>
+            
+        </form>
+        <form>
+            <div class="row row-input">
+                <h3 class="h3-title">Cálculo de Calor</h3>
+            </div>
+
+
+            <div class="row row-input">
+                <input type="number" id="valor4" placeholder="ΔU">
+            </div>
+
+            <div class="row row-input">
+                <input type="number" id="valor3" placeholder="W">
+            </div>
+
+            <div class="row row-input">
+                <input type="number" id="resultadoe" readonly>
+            </div>
+
+            <div class="row row-input">
+                <button type="button" onclick="calcularr()" >Calcular</button>
+            </div>
+
+        </form>
+        <form>
+            <div class="row row-input">
+                <h3 class="h3-title">Cálculo de Trabalho</h3>
+            </div>
+
+
+            <div class="row row-input">
+                <input type="number" id="valor5" placeholder="Q">
+            </div>
+
+            <div class="row row-input">
+                <input type="number" id="valor6" placeholder="ΔU">
+            </div>
+
+            <div class="row row-input">
+                <input type="number" id="resultadoq" readonly>
+            </div>
+
+            <div class="row row-input">
+                <button type="button" onclick="calcularrr()" >Calcular</button>
+            </div>
+
+        </form>
+
+
+
+    </div>
+
+    </div>
+    </div>
+    <footer>
+        <ul>
+            <li>sa2ao@senai.br</li>
+            <li> (48) 3322 - 1234</li>
+        </ul>
+    </footer>
+    <script src="C:\VScode\SA Termodinamica\trabinterno.js"></script>
+</body>
+</html>
