@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    
+}
+
+.titulo{
+    color: #2800da;
+    margin-left: 25px
+}
+
+.paragrafo{
+    margin-left: 20px;
+    
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    padding: 1px;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    color: #000000;
+    padding: 1px;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;   
+    background-color: #000000; 
+}
+
+nav li > a{
+    text-decoration: none;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 8px;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    font-size: large;
+    background-color: #000000;
+    
+}
+
+
+
+.active{
+    font-weight: bold;
+    border-bottom: 2px solid #2800da;
+    transition: 1s;
+    
+}
+
+.meiuca{
+    margin-left: 300px;
+}
+
+.video{
+    margin-left: 150px;
+}
+
+
+nav li > a:hover{
+    color: #2800da;
+    border-bottom: 2px solid #2800da;
+    transition: 1s;
+}
+.container{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.35em;
+    margin: auto;
+    margin-bottom: 16px;
+    width: 90%;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.row-color-aliceblue{
+    background-color: #49494918;
+}
+
+.col{
+    /*altura provisória... só para bonito*/
+    height: 500px;
+    padding: 24px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col img{
+    width: 350px;
+    border-radius: 0.85em;
+}
+
+footer{
+    background-color: #080808;
+    color: aliceblue;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    margin: 8px;
+}
+
+form{
+    width: 100%;
+}
+
+.row-input{
+    padding: 16px;
+    text-align: center;
+}
+
+input{
+    width: 70%;
+    border-radius: 0.45em;
+    padding: 8px;
+    text-align: center;
+    border:1px solid #2800da;
+    background-color: #fcfcfc;
+    
+}
+
+button{
+    width: 72%;
+    border-radius: 0.45em;
+    padding: 8px;
+    background-color: #2800da;
+    outline: none;
+    color: #fff;
+
+}
+
+.h3-title{
+    color: #214772;
+}
+@media screen and (max-width: 800px) {
+    .container{
+        width: 97%;
+    }
+    .row{
+        display: block;
+    }
+
+    .col{
+        width: 94%;
+    }
+
+    nav ul{
+        display: block;
+    }
+    nav li{
+        
+        margin-bottom: 16px;
+    }
+}
